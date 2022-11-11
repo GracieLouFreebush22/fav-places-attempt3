@@ -1,5 +1,5 @@
-import {myPlaces, type OnePlace} from "./PlaceData"
 import { PlaceView } from "./PlaceView";
+import {myPlaces, OnePlace} from "./PlaceData";
 
 function AllPlacesView(): JSX.Element{
     return(<div> All places view 

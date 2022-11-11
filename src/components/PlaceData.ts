@@ -1,10 +1,10 @@
-interface OnePlace{
+export interface OnePlace{
     id: number;
     title: string;
     location: string;
 }
 
-const myPlaces: OnePlace[] = [
+export const myPlaces: OnePlace[] = [
     {
         id: 1,
         title: "Test",
@@ -23,4 +23,4 @@ const myPlaces: OnePlace[] = [
 ]
 
 
-export {myPlaces, type OnePlace}
+//export {myPlaces, OnePlace}
