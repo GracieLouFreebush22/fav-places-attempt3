@@ -2,23 +2,27 @@ export interface OnePlace{
     id: number;
     title: string;
     location: string;
+
 }
 
 export const myPlaces: OnePlace[] = [
     {
         id: 1,
-        title: "Test",
-        location: "TestVille"
+        title: "Tomato Greenhouse",
+        location: "Reykjavik, Iceland"
+     
     },
     {
         id: 2,
-        title: "Test 2",
-        location: "Testopia"
+        title: "Vicktoria Park",
+        location: "London, England"
+   
     },
     {
         id: 3,
-        title: "Test",
-        location: "United States of Tests",
+        title: "Wrigley Feild",
+        location: "Chicago, Illinois",
+
     },
 ]
 

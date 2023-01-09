@@ -1,8 +1,9 @@
 import { PlaceView } from "./PlaceView";
 import {myPlaces, OnePlace} from "./PlaceData";
 
+
 function AllPlacesView(): JSX.Element{
-    return(<div> All places view 
+    return(<div className= "body" > Grace's Favorite Places
         {    
         myPlaces.map(
             (placeItem:OnePlace) => (
