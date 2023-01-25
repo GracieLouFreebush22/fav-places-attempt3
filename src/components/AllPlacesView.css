@@ -1,0 +1,35 @@
+/* ---------------------------------------------header */
+
+.ctn-header {
+  border: solid 5px rgb(139, 11, 129);
+  margin-bottom: 10px;
+  color: rgb(95, 17, 87);
+}
+
+/* --------------------------------------------boddy */
+.body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.ctn-mappedPlaces {
+  border: solid 5px rgb(139, 11, 129);
+  color: rgb(95, 17, 87);
+  text-emphasis-color: rgb(83, 9, 61);
+}
+
+/* ----------------------------------------------------- one place*/
+/* .ctn-place-header{
+    border: solid 5px red;
+} */
+
+.ctn-place {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: dashed 3px rgb(241, 221, 234);
+}
+
+.ctn-img {
+  border-color: solid 5px rgb(3, 65, 44);
+}
